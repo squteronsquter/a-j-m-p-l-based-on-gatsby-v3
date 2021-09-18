@@ -9,7 +9,7 @@ export default function Home() {
       <Layout>
         <Wrapper>
           <h1>Strona główna</h1>
-          <StaticImage src="../assets/images/logo.svg" alt="AJMotyl Logo" />
+          <StaticImage src="../assets/images/logo.png" alt="AJMotyl Logo" />
         </Wrapper>
       </Layout>
     </>
