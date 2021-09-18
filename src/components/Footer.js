@@ -20,5 +20,8 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  a {
+    color: rgb(64, 73, 197);
+  }
 `
 export default Footer

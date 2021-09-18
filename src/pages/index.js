@@ -1,15 +1,17 @@
 import React from "react"
 import Layout from "../components/Layout"
 import styled from "styled-components"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
+import Frontpageslider from "../components/Frontpageslider"
+import Tagline from "../components/Tagline"
 
 export default function Home() {
   return (
     <>
       <Layout>
         <Wrapper>
-          <h1>Strona główna</h1>
-          <StaticImage src="../assets/images/logo.png" alt="AJMotyl Logo" />
+          <Tagline />
+          <Frontpageslider />
         </Wrapper>
       </Layout>
     </>

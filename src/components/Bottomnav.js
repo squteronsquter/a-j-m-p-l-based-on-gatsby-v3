@@ -54,7 +54,11 @@ const Wrapper = styled.section`
     align-items: center;
   }
   a {
+    color: #2a2a2a;
     padding: 0.5em 1em;
+  }
+  .active-link {
+    color: rgb(64, 73, 197);
   }
 `
 
